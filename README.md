@@ -1,2 +1,3 @@
 # spotify-clone
-music website
+music website 
+ by charu mehra
