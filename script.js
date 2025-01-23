@@ -4,17 +4,17 @@ let currentSongIndex = 0;
 let audioPlayer = new Audio();
 let isPlaying = false;
 let songsList = [
-    'Aaj Ki Raat - Stree 2 320 Kbps.mp3',
-    'Aayi Nai - Stree 2 320 Kbps.mp3',
+    'Aaj Ki Raat - Stree.mp3',
+    'Aayi Nai - Stree.mp3',
     'audio1.mp3',
-    'Bhool Bhulaiyaa 3 - Title Track (Feat. Pitbull) - Bhool Bhulaiyaa 3 320 Kbps.mp3',
-    'Phir Se Ud Chala - Rockstar 320 Kbps.mp3',
-    'Hauli Hauli - Khel Khel Mein 320 Kbps.mp3',
-    'In Love - Guru Randhawa 320 Kbps.mp3',
-    'Ittar - Jasmine Sandlas 320 Kbps.mp3',
-    'Kissik - Pushpa 2 The Rule 320 Kbps.mp3',
-    'Mera Na - Sidhu Moose Wala 320 Kbps.mp3',
-    'Saanware - Akhil Sachdeva 320 Kbps.mp3'
+    'Bhool Bhulaiyaa 3 - Title Track (Feat. Pitbull) - Bhool Bhulaiyaa 3 .mp3',
+    'Phir Se Ud Chala - Rockstar .mp3',
+    'Hauli Hauli - Khel Khel Mein .mp3',
+    'In Love - Guru Randhawa .mp3',
+    'Ittar - Jasmine Sandlas .mp3',
+    'Kissik - Pushpa 2 The Rule .mp3',
+    'Mera Na - Sidhu Moose Wala .mp3',
+    'Saanware - Akhil Sachdeva .mp3'
 ];
 
 // Function to play the selected song
