@@ -199,6 +199,8 @@ body {
     display: flex;
     justify-content: center;
     gap: 16px;
+    position: fixed;
+    padding: 0px 438px
 }
 
 .songList {
@@ -220,17 +222,16 @@ body {
 }
 
 .songList ul {
-    padding: 0 12px;
+    padding: 0 42px;
 }
 
 .songList ul li {
     list-style-type: decimal;
     display: flex;
-    justify-content: space-between;
     gap: 12px;
     cursor: pointer;
     padding: 12px 0;
-    border: 1px solid rgba(146, 143, 143, 0.491);
+    border: 1px solid white;
     margin: 12px 0;
     padding: 13px;
     border-radius: 5px;
@@ -245,16 +246,15 @@ body {
     word-break: break-all;
 }
 
-.playnow {
+.Playnow {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.playnow span {
+.Playnow span {
     font-size: 15px;
     width: 64px;
-    padding: 12px;
 }
 
 .seekbar {
@@ -290,9 +290,9 @@ body {
 }
 
 
-.songinfo {
-    color: black;
-    padding: 0 12px;
+.info {
+    
+    padding:  12px;
     width: 250px;
 }
 
@@ -438,3 +438,4 @@ body {
 
     
 }
+

@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="utility.css">
     <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 
 <body>
@@ -29,13 +30,23 @@
                         Your Library
                     </h2>
                 </div>
-
-                <div class="songList">
-
+                <div class="songList" id="">
                     <ul>
-
+                       <li>
+                        <img class="invert"  src="img/music.svg" alt="">
+                        <div class="info">
+                            <div>Song Name</div>
+                            <div>Song Artist</div>
+                        </div>
+                        <div class="Playnow">
+                            <span>Play Now</span>
+                            <img class="invert" src="img/play.svg" alt="">
+                        </div>
+                       </li>
                     </ul>
                 </div>
+
+                
 
                 <div class="footer">
                     <div><a href="https://www.spotify.com/jp/legal/"><span>Legal</span></a></div>
@@ -110,7 +121,7 @@
                         <p>Hit to boost your mood and fil you with happiness!</p>
                     </div>
                     <div class="card">
-                        <div class="play" onclick="playSong('ssongsplaylist/Phir Se Ud Chala - Rockstar 320 Kbps.mp3')">
+                        <div class="play" onclick="playSong('songsplaylist/Phir Se Ud Chala - Rockstar 320 Kbps.mp3')">
                             <img src="img\play.svg" alt="">
                         </div>
                         <img src="songs\Dark_(mood)\cover.jpg" alt="">
